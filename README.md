@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Book Friends!
+Just a project for fun to explore NextJS/React/Tailwind
+
+Ever wanted to know what books are on your friend's shelves? Want to borrow that really interesting book you saw last time you were at their house? Maybe try out this site!  
+https://book-friends.netlify.app/  
+Or don't because it's not anywhere near ready. But maybe someday!
+
 
 ## Getting Started
 
