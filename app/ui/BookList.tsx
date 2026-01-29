@@ -3,7 +3,6 @@ import Image from "next/image"
 export function BookList() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <div className="text-3xl text-blue-950 my-[2.5lvh]">Friends' books</div>
             <Book bookNumber={1} />
             <Book bookNumber={2} />
             <Book bookNumber={3} />

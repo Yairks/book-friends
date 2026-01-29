@@ -5,6 +5,7 @@ export default function Home() {
     return (
         <div className='flex flex-col'>
             <HeaderSearch />
+            <div className="text-3xl text-blue-950 my-[2.5lvh] text-center">Friends' books</div>
             <BookList />
         </div>
     );
