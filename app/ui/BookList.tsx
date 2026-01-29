@@ -7,10 +7,11 @@ export function BookList() {
             <Book bookNumber={1} />
             <Book bookNumber={2} />
             <Book bookNumber={3} />
-            <Book bookNumber={4} />``
+            <Book bookNumber={4} />
             <Book bookNumber={5} />
             <Book bookNumber={6} />
             <Book bookNumber={7} />
+            <div className='invisible mt-[5lvh]'>Spacer for footer</div>
         </div>
     )
 }
