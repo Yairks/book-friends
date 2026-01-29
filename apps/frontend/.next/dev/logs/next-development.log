@@ -1,0 +1,260 @@
+[00:00:00.588] Server  LOG     ✓ Ready in 425ms
+[00:00:01.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.716] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:01.716] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:01.716] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:01.716] Browser WARN    Image with src "/harry_potter/harry_potter_4.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.397] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:04.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.512] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:04.512] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.512] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.512] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.512] Browser WARN    Image with src "/harry_potter/harry_potter_4.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.298] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:05.298] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.298] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.298] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.298] Browser WARN    Image with src "/harry_potter/harry_potter_4.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.831] Server  ERROR   ⨯ ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./apps/frontend/src/app/friends/[slug]/page.tsx:2:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+  1 | import { BookList } from "@/app/ui/BookList"
+> 2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image"
+  4 |
+  5 | export default async function BlogPostPage({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.992] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:10.992] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:2:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+  1 | import { BookList } from "@/app/ui/BookList"
+> 2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image"
+  4 |
+  5 | export default async function BlogPostPage({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:10.992] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:10.992] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:2:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+  1 | import { BookList } from "@/app/ui/BookList"
+> 2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image"
+  4 |
+  5 | export default async function BlogPostPage({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.017] Server  ERROR   ⨯ ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./apps/frontend/src/app/friends/[slug]/page.tsx:2:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+  1 | import { BookList } from "@/app/ui/BookList"
+> 2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image"
+  4 |
+  5 | export default async function BlogPostPage({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.220] Browser ERROR   uncaughtError: Error: ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.366] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.366] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:2:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+  1 | import { BookList } from "@/app/ui/BookList"
+> 2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image"
+  4 |
+  5 | export default async function BlogPostPage({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.366] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/BookList'
+> 1 | import { BookList } from "@/app/ui/BookList"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+  3 | import Image from "next/image"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.366] Browser ERROR   ./apps/frontend/src/app/friends/[slug]/page.tsx:2:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+  1 | import { BookList } from "@/app/ui/BookList"
+> 2 | import { HeaderFriend } from "@/app/ui/HeaderFriend"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image"
+  4 |
+  5 | export default async function BlogPostPage({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:25.724] Server  ERROR   ⨯ ReferenceError: HeaderFriend is not defined
+[00:00:25.975] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.975] Browser ERROR   uncaughtError: ReferenceError: HeaderFriend is not defined
+[00:00:30.082] Server  ERROR   ⨯ ReferenceError: BookList is not defined
+[00:00:30.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.352] Browser ERROR   uncaughtError: ReferenceError: BookList is not defined
+[00:00:32.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:33.129] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:33.129] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:33.129] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:33.827] Browser WARN    Image with src "/profiles/male-stock-profile.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:33.827] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:34.873] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:35.013] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:35.013] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:35.013] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:35.013] Browser WARN    Image with src "/profiles/male-stock-profile.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:35.013] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:36.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.195] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:38.195] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:38.195] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:48.719] Browser LOG     Footer button clicked
+[00:00:48.828] Server  ERROR   ⨯ ./apps/frontend/src/app/loans/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+> 1 | import { HeaderFriend } from '@/app/ui/HeaderFriend'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Loans() {
+  4 |     return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:48.869] Server  ERROR   ⨯ ./apps/frontend/src/app/loans/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+> 1 | import { HeaderFriend } from '@/app/ui/HeaderFriend'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Loans() {
+  4 |     return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:49.064] Browser ERROR   uncaughtError: Error: ./apps/frontend/src/app/loans/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+> 1 | import { HeaderFriend } from '@/app/ui/HeaderFriend'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Loans() {
+  4 |     return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:49.199] Browser ERROR   ./apps/frontend/src/app/loans/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+> 1 | import { HeaderFriend } from '@/app/ui/HeaderFriend'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Loans() {
+  4 |     return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:49.199] Browser ERROR   ./apps/frontend/src/app/loans/page.tsx:1:1
+Module not found: Can't resolve '@/app/ui/HeaderFriend'
+> 1 | import { HeaderFriend } from '@/app/ui/HeaderFriend'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Loans() {
+  4 |     return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:01.818] Server  ERROR   ⨯ ReferenceError: HeaderFriend is not defined
+[00:01:02.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:02.067] Browser ERROR   uncaughtError: ReferenceError: HeaderFriend is not defined
+[00:01:06.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:09.329] Browser WARN    Image with src "/harry_potter/harry_potter_1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:09.329] Browser WARN    Image with src "/harry_potter/harry_potter_2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:09.329] Browser WARN    Image with src "/harry_potter/harry_potter_3.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:09.329] Browser WARN    Image with src "/harry_potter/harry_potter_4.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

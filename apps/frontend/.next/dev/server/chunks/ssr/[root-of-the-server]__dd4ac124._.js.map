@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/yair/react-apps/super-dir/apps/frontend/src/app/loans/page.tsx"],"sourcesContent":["\nexport default function Loans() {\n    return (\n        <div className='flex flex-col'>\n            <HeaderFriend />\n            <div className='flex flex-col h-lvh items-center'>\n                <div className='text-2xl p-[3lvh]'>Such loans!</div>\n            </div>\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;;AACe,SAAS;IACpB,qBACI,maAAC;QAAI,WAAU;;0BACX,maAAC;;;;;0BACD,maAAC;gBAAI,WAAU;0BACX,cAAA,maAAC;oBAAI,WAAU;8BAAoB;;;;;;;;;;;;;;;;;AAInD"}}]
+}

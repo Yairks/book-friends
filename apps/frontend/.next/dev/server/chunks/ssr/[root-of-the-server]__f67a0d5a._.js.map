@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/yair/react-apps/super-dir/apps/frontend/src/app/ui/HeaderFriend.tsx"],"sourcesContent":["export function HeaderFriend() {\n\n    return (\n        <div className='flex flex-row max-w-lvw pr-[3lvh] py-[1lvh] items-center justify-center sticky top-0 bg-lime-50'>\n            <div className=\"flex-0 p-[1lvh]\">📖</div>\n            <input type=\"search\" placeholder=\"Search for a friend\" className=\"flex-1 p-1 border-2 border-blue-100 rounded-l border-solid bg-white\" />\n        </div >\n    );\n}"],"names":[],"mappings":";;;;;;AAAO,SAAS;IAEZ,qBACI,maAAC;QAAI,WAAU;;0BACX,maAAC;gBAAI,WAAU;0BAAkB;;;;;;0BACjC,maAAC;gBAAM,MAAK;gBAAS,aAAY;gBAAsB,WAAU;;;;;;;;;;;;AAG7E"}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":["file:///home/yair/react-apps/super-dir/apps/frontend/src/app/loans/page.tsx"],"sourcesContent":["import { HeaderFriend } from \"../ui/HeaderFriend\";\n\nexport default function Loans() {\n    return (\n        <div className='flex flex-col'>\n            <HeaderFriend />\n            <div className='flex flex-col h-lvh items-center'>\n                <div className='text-2xl p-[3lvh]'>Such loans!</div>\n            </div>\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI,maAAC;QAAI,WAAU;;0BACX,maAAC,qKAAY;;;;;0BACb,maAAC;gBAAI,WAAU;0BACX,cAAA,maAAC;oBAAI,WAAU;8BAAoB;;;;;;;;;;;;;;;;;AAInD"}}]
+}
