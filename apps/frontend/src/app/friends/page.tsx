@@ -11,8 +11,8 @@ export default function Friends() {
 
     useEffect(() => {
         fetch(process.env.NEXT_PUBLIC_HOSTNAME + '/users')
-            .then((res) => res.json())
-            .then((data) => setFriends(data.data));
+            .then((res) => { console.log(res); const jss = res.json(); console.log(jss); return jss; })
+            .then((data) => { console.log(data); setFriends(data.data) });
     }, []);
 
     return (
