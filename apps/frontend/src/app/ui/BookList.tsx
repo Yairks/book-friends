@@ -1,5 +1,4 @@
 import Image from "next/image"
-
 export function BookList() {
     return (
         <div className="flex flex-col items-center justify-center">

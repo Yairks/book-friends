@@ -1,17 +1,15 @@
 import express from "express";
 import cors from "cors";
-import { User } from "@shared/types";
+import supabase from './supabase';
 
 const app = express();
 app.use(cors());
 
-app.get("/api/health", (_req, res) => {
-    const user: User = {
-        id: "1",
-        name: "John",
-        email: "john@example.com"
-    };
-    res.json({ status: "ok", user });
+
+app.get("/users", async (_req, res) => {
+    const { data, error } = await supabase.from('users').select('*');
+
+    res.json({ status: "ok", data });
 });
 
 app.listen(4000, () => {
